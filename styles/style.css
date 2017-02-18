@@ -1,0 +1,98 @@
+.title {
+    width: 20vw;
+    height: 9.4vw;
+    margin: auto;
+    background-image: url('../rubbleLogo.png');
+    background-size: 100% 100%;
+}
+
+.main {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #787878;
+    height: auto;
+}
+
+.header {
+    height: 10%;
+    padding: 2%;
+    background-color: #bbbbbb;
+    color: black;
+}
+
+.content {
+    margin: 5%;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #787878;
+    clear: both;
+}
+
+.footerLogo {
+    width: 163px;
+    height: 163px;
+    position: relative;
+    left: 50%;
+    top: 18px;
+    margin-left: -81.5px;
+    border: solid black 1px;
+}
+
+.SEKpics {
+    float: left;
+    width: 47%;
+    margin: 1.5% 0 5% 0;
+}
+
+.SEKblurb {
+    float: right;
+    width: 47%;
+    padding: 0% 10%;
+    box-sizing: border-box;
+    line-height: 2;
+}
+
+.SEKblurb p {
+    padding-bottom: 6%;
+}
+
+.gameName {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #787878;
+    font-weight: bold;
+    -webkit-margin-before: 0 !important;
+}
+
+.slides {
+    display: none;
+    width: 80%;
+    margin-left: 10%;
+    border: solid black 3px;
+}
+
+.previewHolder {
+    width: 15%;
+    float: left;
+    padding: 0.6%;
+}
+
+.preview {
+    width: 100%;
+    border: solid black 2px;
+}
+
+.opacity,.hover-opacity:hover {
+    opacity:0.60;
+    -webkit-backface-visibility:hidden;
+}
+
+.opacity-off,.hover-opacity-off:hover {
+    opacity:1;
+    -webkit-backface-visibility:hidden
+}
