@@ -24,3 +24,13 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " -opacity-off";
 }
+
+function mailListShow() {
+  var mailClass = document.getElementById("mc_embed_signup");
+  if (mailClass.style.display=='none' || mailClass.style.display=="") {
+    mailClass.style.display = 'block'; 
+  }
+  else {
+    mailClass.style.display = 'none'; 
+  }
+}

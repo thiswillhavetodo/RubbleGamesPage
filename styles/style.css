@@ -1,3 +1,7 @@
+body {
+    margin-bottom: 0;
+}
+
 .title {
     width: 20vw;
     height: 12vw;
@@ -82,19 +86,33 @@
 
 .footer {
     width: 100%;
-    height: 200px;
+    height: 185px;
     background-color: #787878;
     clear: both;
 }
 
 .footerLogo {
-    width: 163px;
-    height: 163px;
+    width: 150px;
+    height: 150px;
     position: relative;
     left: 50%;
-    top: 18px;
+    top: 12px;
     margin-left: -81.5px;
     border: solid black 1px;
+}
+
+.footerLogo img {
+    width: 100%;
+    height: 100%;
+}
+
+.copyright {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    -webkit-margin-before: 0 !important;
 }
 
 .SEKpics {
@@ -106,7 +124,7 @@
 .SEKblurb {
     float: right;
     width: 47%;
-    padding: 0% 10%;
+    padding: 0% 8%;
     box-sizing: border-box;
     line-height: 2;
 }
@@ -126,6 +144,10 @@
     color: #787878;
     font-weight: bold;
     -webkit-margin-before: 0 !important;
+}
+
+.gameStatus {
+    font-size: 13px;
 }
 
 .slides {
@@ -201,4 +223,55 @@
 .blogger-hover {
 	background-image: url('../images/blogger-hover.png');
 	background-size: 100% 200%;
+}
+
+#mc_embed_signup {
+    position: absolute;
+    left: 5px;
+    top: 85px;
+    width: 25vw;
+    min-width: 250px;
+    background: #fff; 
+    clear: left; 
+    font: 14px 'Raleway', Arial, sans-serif; 
+    display: none;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+#signup-header {
+    font-size: 24px;
+    text-align: center;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0.5em;
+    margin-left: 0;
+}
+
+.button {
+    margin: 2px;
+    font: 14px 'Raleway', Arial, sans-serif; 
+}
+
+.indicates-required {
+    margin-bottom: 15px;
+}
+
+#mce-EMAIL {
+    width: 60%;
+}
+
+#signupButton {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #787878;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin: 10px 2px;
+    cursor: pointer;
+    background-color: white;
+    width: 150px;
+    position: absolute;
+    left: 5px;
+    top: 0px;
 }
