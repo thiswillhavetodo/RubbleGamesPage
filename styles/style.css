@@ -18,7 +18,7 @@ body {
     height: auto;
 }
 
-.header {
+.titleBar {
     height: 150px;
     background-color: #bbbbbb;
     color: black;
@@ -58,7 +58,7 @@ body {
 }
 
 @media (min-width: 1025px) {
-    .header {
+    .titleBar {
         font-size: 1.45vw;
     }
 }
@@ -193,8 +193,8 @@ body {
 .social-slide {
 	max-height: 48px;
 	max-width: 48px/*2.52vw*/;
-	height: 3.3vw;
-	width: 3.3vw;
+	height: 48px/*3.3vw*/;
+	width: 48px/*3.3vw*/;
 	margin: 0.5vw/*10px*/;
 	float: left;
 	-webkit-transition: all ease 0.3s;
