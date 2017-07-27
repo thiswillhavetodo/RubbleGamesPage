@@ -124,7 +124,7 @@ body {
 .SEKblurb {
     float: right;
     width: 47%;
-    padding: 0% 8%;
+    padding: 0% 6.5%;
     box-sizing: border-box;
     line-height: 2;
 }
@@ -162,6 +162,7 @@ body {
 .preview {
     width: 100%;
     border: solid black 2px;
+    cursor: pointer;
 }
 
 .opacity,.hover-opacity:hover {
