@@ -138,11 +138,7 @@ body {
 }
 
 .gameName {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: #787878;
-    font-weight: bold;
+    width: 100%;
     -webkit-margin-before: 0 !important;
 }
 
