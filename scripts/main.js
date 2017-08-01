@@ -5,13 +5,18 @@ function plusDivs(n) {
   showDivs(slideIndex += n);
 }
 
-function currentDiv(n) {
-  showDivs(slideIndex = n);
+function currentDiv(n, game) {
+  showDivs(slideIndex = n, game);
 }
 
-function showDivs(n) {
+function showDivs(n, game) {
   var i;
-  var x = document.getElementsByClassName("slides");
+  if (game=='zca') {
+    var x = document.getElementsByClassName("ZCAslides");
+  }
+  else if (game=='sek'){
+    x = document.getElementsByClassName("SEKslides");
+  }
   var dots = document.getElementsByClassName("preview");
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}

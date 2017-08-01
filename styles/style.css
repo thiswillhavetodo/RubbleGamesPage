@@ -1,5 +1,9 @@
+html {
+    height: 100%
+}
+
 body {
-    margin-bottom: 0;
+    margin: 0px;
 }
 
 .title {
@@ -116,20 +120,21 @@ body {
 }
 
 .SEKpics {
+    clear: both;
     float: left;
     width: 47%;
-    margin: 0.5% 0 5% 0;
+    margin: 2.5% 0 2.5% 0;
 }
 
-.SEKblurb {
+.blurb {
     float: right;
     width: 47%;
-    padding: 0% 6.5%;
+    padding: 2% 6.5%;
     box-sizing: border-box;
     line-height: 2;
 }
 
-.SEKblurb p {
+.blurb p {
     padding-bottom: 6%;
 }
 
@@ -146,7 +151,14 @@ body {
     font-size: 13px;
 }
 
-.slides {
+.ZCAslides {
+    display: none;
+    width: 92%;
+    margin-left: 4%;
+    border: solid black 3px;
+}
+
+.SEKslides {
     display: none;
     width: 80%;
     margin-left: 10%;
@@ -154,7 +166,7 @@ body {
 }
 
 .previewHolder {
-    width: 15%;
+    width: 15.35%;
     float: left;
     padding: 0.6%;
 }
@@ -272,3 +284,49 @@ body {
     left: 5px;
     top: 0px;
 }
+
+.googlePlayBadge {
+    width: 60%;
+    
+}
+
+.hireUs {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    -webkit-margin-after: 0em;
+    
+}
+
+.hireUsHolder {
+    position: relative;
+    top: -40%;
+    width: 20%;
+    float: right;
+}
+
+
+#SEK {
+    clear: both;
+    
+}
+/*
+.SEKpics {
+    clear: both;
+    float: left;
+    width: 47%;
+    margin: 0.5% 0 5% 0;
+}
+
+.ZCAblurb {
+    float: right;
+    width: 47%;
+    padding: 0% 6.5%;
+    box-sizing: border-box;
+    line-height: 2;
+}
+
+.ZCAblurb p {
+    padding-bottom: 6%;
+}*/
