@@ -1,190 +1,28 @@
 html {
-    height: 100%
+    height: 100%;
+    /*box-sizing: border-box; needs testing before implemetation */
 }
 
 body {
     margin: 0px;
 }
 
+::selection {
+    background: #787878;
+    color: white;
+}
+
+/*header*/
+
 .title {
     width: 25vw;
     height: 12vw;
     margin: auto;
-    
     background-size: 100% 100%;
-}
-
-.main {
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    text-align: center;
-    color: #787878;
-    height: auto;
-}
-
-.titleBar {
-    height: 150px;
-    background-color: #bbbbbb;
-    color: black;
-    width: 100%;
-    padding-top: 32px;
-    text-align: center;
-}
-
-.headContentArea {
-    height: 102px;
-    
-}
-
-.externalLogoHolder {
-    height: 100%;
-    padding-top: 35px;
-    float: left;
-}
-
-.leftLogo {
-    width: 25%;
-}
-
-.headTextHolder {
-    width: 50%;
-    float: left;
-    min-width: 460px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.headTextHolder p {
-    -webkit-margin-before: 14px;
-    -webkit-margin-after: 14px;
-}
-
-@media (min-width: 1025px) {
-    .titleBar {
-        font-size: 1.45vw;
-    }
-}
-
-.left {
-    position: relative;
-    right: 64px;
-    margin-left: 100%;
-}
-
-.right {
-    width: 64px;
-    display: block;
-    position: relative;
-    left: 0px;
-}
-
-.content {
-    margin: 2%;
 }
 
 .logo {
     width: 100%;
-}
-
-.footer {
-    width: 100%;
-    height: 185px;
-    background-color: #787878;
-    clear: both;
-}
-
-.footerLogo {
-    width: 150px;
-    height: 150px;
-    position: relative;
-    left: 50%;
-    top: 12px;
-    margin-left: -81.5px;
-    border: solid black 1px;
-}
-
-.footerLogo img {
-    width: 100%;
-    height: 100%;
-}
-
-.copyright {
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-    text-align: center;
-    color: black;
-    font-weight: bold;
-    -webkit-margin-before: 0 !important;
-}
-
-.SEKpics {
-    clear: both;
-    float: left;
-    width: 47%;
-    margin: 2.5% 0 2.5% 0;
-}
-
-.blurb {
-    float: right;
-    width: 47%;
-    padding: 2% 6.5%;
-    box-sizing: border-box;
-    line-height: 2;
-}
-
-.blurb p {
-    padding-bottom: 6%;
-}
-
-.projectSectionTitle {
-    font-size: 28px;
-}
-
-.gameName {
-    width: 100%;
-    -webkit-margin-before: 0 !important;
-}
-
-.gameStatus {
-    font-size: 13px;
-}
-
-.ZCAslides {
-    display: none;
-    width: 92%;
-    margin-left: 4%;
-    border: solid black 3px;
-}
-
-.SEKslides {
-    display: none;
-    width: 80%;
-    margin-left: 10%;
-    border: solid black 3px;
-}
-
-.previewHolder {
-    width: 15.35%;
-    float: left;
-    padding: 0.6%;
-}
-
-.preview {
-    width: 100%;
-    border: solid black 2px;
-    cursor: pointer;
-}
-
-.opacity,.hover-opacity:hover {
-    opacity:0.60;
-    -webkit-backface-visibility:hidden;
-}
-
-.opacity-off,.hover-opacity-off:hover {
-    opacity:1;
-    -webkit-backface-visibility:hidden
 }
 
 .socialMediaButtons {
@@ -200,17 +38,17 @@ body {
 }
 
 .social-slide {
+-webkit-transition: all ease 0.3s;
+   -moz-transition: all ease 0.3s;
+     -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+        transition: all ease 0.3s;
 	max-height: 48px;
 	max-width: 48px/*2.52vw*/;
 	height: 48px/*3.3vw*/;
 	width: 48px/*3.3vw*/;
 	margin: 0.5vw/*10px*/;
 	float: left;
-	-webkit-transition: all ease 0.3s;
-	-moz-transition: all ease 0.3s;
-	-o-transition: all ease 0.3s;
-	-ms-transition: all ease 0.3s;
-	transition: all ease 0.3s;
 }
 
 .social-slide:hover {
@@ -285,9 +123,185 @@ body {
     top: 0px;
 }
 
+/*main*/
+
+.main {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #787878;
+    height: auto;
+}
+
+.titleBar {
+    height: 150px;
+    background-color: #bbbbbb;
+    color: black;
+    width: 100%;
+    padding-top: 32px;
+    text-align: center;
+}
+
+@media (min-width: 1025px) {
+    .titleBar {
+        font-size: 1.45vw;
+    }
+}
+
+.headContentArea {
+    height: 102px;
+    
+}
+
+.externalLogoHolder {
+    height: 100%;
+    padding-top: 35px;
+    float: left;
+}
+
+.leftLogo {
+    width: 25%;
+}
+
+.headTextHolder {
+    width: 50%;
+    float: left;
+    min-width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headTextHolder p {
+    -webkit-margin-before: 14px;
+    -webkit-margin-after: 14px;
+}
+
+.left {
+    position: relative;
+    right: 64px;
+    margin-left: 100%;
+}
+
+.right {
+    width: 64px;
+    display: block;
+    position: relative;
+    left: 0px;
+}
+
+.content {
+    margin: 2%;
+}
+
+.SEKpics {
+    clear: both;
+    float: left;
+    width: 47%;
+    margin: 2.5% 0 2.5% 0;
+}
+
+.blurb {
+    float: right;
+    width: 47%;
+    padding: 2% 6.5%;
+    box-sizing: border-box;
+    line-height: 2;
+}
+
+.blurb p {
+    padding-bottom: 6%;
+}
+
+.projectSectionTitle {
+    font-size: 28px;
+}
+
+.gameName {
+    width: 100%;
+    -webkit-margin-before: 0 !important;
+}
+
+.gameStatus {
+    font-size: 13px;
+}
+
+.ZCAslides {
+    display: none;
+    width: 92%;
+    margin-left: 4%;
+    border: solid black 3px;
+}
+
+.SEKslides {
+    display: none;
+    width: 80%;
+    margin-left: 10%;
+    border: solid black 3px;
+}
+
+.previewHolder {
+    width: 15.35%;
+    float: left;
+    padding: 0.6%;
+}
+
+.preview {
+    width: 100%;
+    border: solid black 2px;
+    cursor: pointer;
+}
+
+.opacity,.hover-opacity:hover {
+    opacity:0.60;
+    -webkit-backface-visibility:hidden;
+}
+
+.opacity-off,.hover-opacity-off:hover {
+    opacity:1;
+    -webkit-backface-visibility:hidden
+}
+
 .googlePlayBadge {
     width: 60%;
-    
+}
+
+#SEK {
+    clear: both;
+}
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    height: 185px;
+    background-color: #787878;
+    clear: both;
+}
+
+.footerLogo {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 50%;
+    top: 12px;
+    margin-left: -81.5px;
+    border: solid black 1px;
+}
+
+.footerLogo img {
+    width: 100%;
+    height: 100%;
+}
+
+.copyright {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    -webkit-margin-before: 0 !important;
 }
 
 .hireUs {
@@ -305,28 +319,3 @@ body {
     width: 20%;
     float: right;
 }
-
-
-#SEK {
-    clear: both;
-    
-}
-/*
-.SEKpics {
-    clear: both;
-    float: left;
-    width: 47%;
-    margin: 0.5% 0 5% 0;
-}
-
-.ZCAblurb {
-    float: right;
-    width: 47%;
-    padding: 0% 6.5%;
-    box-sizing: border-box;
-    line-height: 2;
-}
-
-.ZCAblurb p {
-    padding-bottom: 6%;
-}*/
