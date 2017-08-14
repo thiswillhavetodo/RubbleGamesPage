@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    /*box-sizing: border-box; needs testing before implemetation */
+    box-sizing: border-box; /*needs testing before implemetation */
 }
 
 body { margin: 0px; }
@@ -145,12 +145,20 @@ a:hover {
     .titleBar { font-size: 1.45vw; }
 }
 
-.headContentArea { height: 9vw; }
+@media (max-width: 920px) {
+    .titleBar { font-size: 1.75vw; }
+}
+
+.headContentArea { 
+    height: 9vw; 
+    min-height: 130px;
+}
 
 .externalLogoHolder {
     height: 100%;
     padding-top: 35px;
     float: left;
+    box-sizing: border-box;
 }
 
 .leftLogo { width: 25%; }
@@ -159,7 +167,6 @@ a:hover {
     width: 50%;
     height: 100%;
     float: left;
-    min-width: 460px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -175,10 +182,13 @@ a:hover {
     position: relative;
     right: 64px;
     margin-left: 100%;
+    width: 4vw;
+    min-width: 64px;
 }
 
 .right {
-    width: 64px;
+    width: 4vw;
+    min-width: 64px;
     display: block;
     position: relative;
     left: 0px;
