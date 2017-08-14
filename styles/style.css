@@ -3,16 +3,18 @@ html {
     /*box-sizing: border-box; needs testing before implemetation */
 }
 
-body {
-    margin: 0px;
-}
+body { margin: 0px; }
 
 ::selection {
-    background: #787878;
     color: white;
+    background: #787878;
 }
 
-/*header*/
+a:hover {
+    opacity:0.60;
+}
+
+/*header and links*/
 
 .title {
     width: 25vw;
@@ -21,9 +23,7 @@ body {
     background-size: 100% 100%;
 }
 
-.logo {
-    width: 100%;
-}
+.logo { width: 100%; }
 
 .socialMediaButtons {
     position: absolute;
@@ -54,6 +54,7 @@ body {
 .social-slide:hover {
     background-position: 0px 48px/*2.52vw*/;
 	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	opacity: 1;
 }
 .twitter-hover {
 	background-image: url('../images/twitter-hover.png');
@@ -99,13 +100,9 @@ body {
     font: 14px 'Raleway', Arial, sans-serif; 
 }
 
-.indicates-required {
-    margin-bottom: 15px;
-}
+.indicates-required { margin-bottom: 15px; }
 
-#mce-EMAIL {
-    width: 60%;
-}
+#mce-EMAIL { width: 60%; }
 
 #signupButton {
     font-family: 'Raleway', sans-serif;
@@ -123,7 +120,7 @@ body {
     top: 0px;
 }
 
-/*main*/
+/*main content*/
 
 .main {
     font-family: 'Raleway', sans-serif;
@@ -143,15 +140,10 @@ body {
 }
 
 @media (min-width: 1025px) {
-    .titleBar {
-        font-size: 1.45vw;
-    }
+    .titleBar { font-size: 1.45vw; }
 }
 
-.headContentArea {
-    height: 102px;
-    
-}
+.headContentArea { height: 102px; }
 
 .externalLogoHolder {
     height: 100%;
@@ -159,9 +151,7 @@ body {
     float: left;
 }
 
-.leftLogo {
-    width: 25%;
-}
+.leftLogo { width: 25%; }
 
 .headTextHolder {
     width: 50%;
@@ -191,9 +181,7 @@ body {
     left: 0px;
 }
 
-.content {
-    margin: 2%;
-}
+.content { margin: 2%; }
 
 .SEKpics {
     clear: both;
@@ -210,26 +198,21 @@ body {
     line-height: 2;
 }
 
-.blurb p {
-    padding-bottom: 6%;
-}
+.blurb p { padding-bottom: 6%; }
 
-.projectSectionTitle {
-    font-size: 28px;
-}
+.projectSectionTitle { font-size: 28px; }
 
 .gameName {
     width: 100%;
     -webkit-margin-before: 0 !important;
 }
 
-.gameStatus {
-    font-size: 13px;
-}
+.gameStatus { font-size: 13px; }
 
 .ZCAslides {
     display: none;
     width: 92%;
+    height: auto;
     margin-left: 4%;
     border: solid black 3px;
 }
@@ -237,6 +220,7 @@ body {
 .SEKslides {
     display: none;
     width: 80%;
+    height: auto;
     margin-left: 10%;
     border: solid black 3px;
 }
@@ -263,13 +247,13 @@ body {
     -webkit-backface-visibility:hidden
 }
 
-.googlePlayBadge {
-    width: 60%;
+.googlePlayBadge { width: 60%; }
+
+.googlePlayBadge:hover {
+    opacity:0.60;
 }
 
-#SEK {
-    clear: both;
-}
+#SEK { clear: both; }
 
 /*footer*/
 
@@ -310,7 +294,6 @@ body {
     text-align: center;
     color: white;
     -webkit-margin-after: 0em;
-    
 }
 
 .hireUsHolder {
