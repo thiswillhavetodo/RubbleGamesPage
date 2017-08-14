@@ -18,7 +18,9 @@ a:hover {
 
 .title {
     width: 25vw;
+    min-width: 400px;
     height: 12vw;
+    min-height: 192px;
     margin: auto;
     background-size: 100% 100%;
 }
@@ -131,11 +133,11 @@ a:hover {
 }
 
 .titleBar {
-    height: 150px;
+    height: 9vw;
+    min-height: 130px;
     background-color: #bbbbbb;
     color: black;
     width: 100%;
-    padding-top: 32px;
     text-align: center;
 }
 
@@ -143,7 +145,7 @@ a:hover {
     .titleBar { font-size: 1.45vw; }
 }
 
-.headContentArea { height: 102px; }
+.headContentArea { height: 9vw; }
 
 .externalLogoHolder {
     height: 100%;
@@ -155,6 +157,7 @@ a:hover {
 
 .headTextHolder {
     width: 50%;
+    height: 100%;
     float: left;
     min-width: 460px;
     display: flex;
