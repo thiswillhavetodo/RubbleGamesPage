@@ -87,6 +87,7 @@ a:hover {
     display: none;
     border: solid black 1px;
     border-radius: 5px;
+    background-color: #aec6cf;
 }
 
 #signup-header {
@@ -273,7 +274,7 @@ a:hover {
 .footer {
     width: 100%;
     height: 185px;
-    background-color: #787878;
+    background-color: #bbbbbb;
     clear: both;
 }
 
