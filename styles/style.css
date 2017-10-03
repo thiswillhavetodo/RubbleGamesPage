@@ -10,9 +10,7 @@ body { margin: 0px; }
     background: #787878;
 }
 
-a:hover {
-    opacity:0.60;
-}
+a:hover { opacity:0.60; }
 
 /*header and links*/
 
