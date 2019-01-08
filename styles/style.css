@@ -262,7 +262,7 @@ a:hover { opacity:0.60; }
 .googlePlayBadge { width: 60%; }
 
 .googlePlayBadge:hover {
-    opacity:0.60;
+    opacity:0.75;
 }
 
 #SEK { clear: both; }
