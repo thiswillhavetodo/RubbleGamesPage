@@ -229,7 +229,7 @@ a:hover { opacity:0.60; }
     border: solid black 3px;
 }
 
-.SEKslides {
+.SEKslides, .POPslides {
     display: none;
     width: 80%;
     height: auto;

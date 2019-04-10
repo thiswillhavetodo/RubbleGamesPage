@@ -17,6 +17,9 @@ function showDivs(n, game) {
   else if (game=='sek'){
     x = document.getElementsByClassName("SEKslides");
   }
+  else if (game=='pop'){
+    x = document.getElementsByClassName("POPslides");
+  }
   var dots = document.getElementsByClassName("preview");
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
