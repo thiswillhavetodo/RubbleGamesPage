@@ -269,9 +269,14 @@ a:hover { opacity:0.60; }
 
 .blurb p { padding-bottom: 6%; }
 
-.freelanceSection p, .fcRight p { padding-bottom: 3%; }
+.freelanceSection p, .fcRight p { padding-bottom: 1.5%; }
 
-.projectSectionTitle, .quote { font-size: 28px; }
+.quote { 
+    font-size: 23px; 
+    font-weight: bold;
+}
+
+.projectSectionTitle { font-size: 28px; }
 
 .gameName {
     width: 100%;
