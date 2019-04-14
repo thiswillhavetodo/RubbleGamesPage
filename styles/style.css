@@ -132,7 +132,7 @@ a:hover { opacity:0.60; }
 }
 
 .titleBar {
-    height: 9vw;
+    height: 8vw;
     min-height: 130px;
     background-color: #bbbbbb;
     color: black;
@@ -149,7 +149,7 @@ a:hover { opacity:0.60; }
 }
 
 .headContentArea { 
-    height: 9vw; 
+    height: 8vw; 
     min-height: 130px;
 }
 
@@ -193,13 +193,70 @@ a:hover { opacity:0.60; }
     left: 0px;
 }
 
-.content { margin: 2%; }
+.content { 
+    margin-bottom: 2%; 
+}
+
+.tabHeader {
+    width: 33.1%;
+    float: left;
+    border: solid black 1px;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+}
+
+.underConstruction {
+    width: 100%;
+    margin: 12% auto;
+    float: left;
+}
+
+.tabNotUsed {
+    border-bottom: solid black 1px;
+    background-color: #eeeeee;
+}
+
+.salesPitchHolder {
+    clear: both;
+}
+
+.salesPitchText {
+    font-weight: bold; 
+    font-size: 18px;
+    margin: 0%;
+    padding-top: 1%;
+}
+
+.tabNotUsed a, .salesPitchText a {
+    text-decoration: none;
+    color: #787878;
+}
 
 .SEKpics {
     clear: both;
     float: left;
     width: 47%;
     margin: 2.5% 0 2.5% 0;
+}
+
+.freelanceSection {
+    clear: both;
+    float: left;
+    width: 47%;
+    box-sizing: border-box;
+    padding: 2.5% 5% 4% 5%;
+}
+
+.fcRight {
+    float: right;
+    width: 47%;
+    box-sizing: border-box;
+    padding: 2.5% 5% 4% 5%;
+}
+
+.fcRight h2, .freelanceSection h2 {
+    margin-block-start: 0.1em;
+    margin-block-end: 1.5em;
 }
 
 .blurb {
@@ -212,7 +269,9 @@ a:hover { opacity:0.60; }
 
 .blurb p { padding-bottom: 6%; }
 
-.projectSectionTitle { font-size: 28px; }
+.freelanceSection p, .fcRight p { padding-bottom: 3%; }
+
+.projectSectionTitle, .quote { font-size: 28px; }
 
 .gameName {
     width: 100%;
@@ -262,6 +321,24 @@ a:hover { opacity:0.60; }
 .googlePlayBadge { width: 60%; }
 
 .googlePlayBadge:hover {
+    opacity:0.75;
+}
+
+.mfLogo {
+    width: 75%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.mfLogo:hover {
+    opacity:0.75;
+}
+
+.freelanceScreenshot {
+    width: 60%;
+}
+
+.freelanceScreenshot:hover {
     opacity:0.75;
 }
 
