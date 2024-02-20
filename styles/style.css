@@ -239,6 +239,20 @@ a:hover { opacity:0.60; }
     margin: 2.5% 0 2.5% 0;
 }
 
+.ISSpics {
+    clear: none;
+    float: left;
+    width: 27%;
+    margin: 2.5% 0 2.5% 0;
+}
+
+.ISSpreview {
+    clear: none;
+    float: left;
+    width: 20%;
+    margin: 2.5% 0 2.5% 0;
+}
+
 .freelanceSection {
     clear: both;
     float: left;
@@ -284,7 +298,8 @@ a:hover { opacity:0.60; }
 }
 
 .gameNameISS {
-    height: 100%;
+    width: 75%;
+    height: auto;
     -webkit-margin-before: 0 !important;
 }
 
@@ -308,8 +323,8 @@ a:hover { opacity:0.60; }
 
 .ISSslides {
     display: none;
-    width: auto;
-    height: 50%;
+    width: 80%;
+    height: auto;
     margin-left: 10%;
     border: solid black 3px;
 }
@@ -320,10 +335,21 @@ a:hover { opacity:0.60; }
     padding: 0.6%;
 }
 
+.previewHolderRight {
+    width: 33%;
+    float: left;
+    padding: 1.5%;
+    padding-left: 10%;
+}
+
 .preview {
     width: 100%;
     border: solid black 2px;
     cursor: pointer;
+}
+
+.previewRowRight {
+    float: top;
 }
 
 .opacity,.hover-opacity:hover {
