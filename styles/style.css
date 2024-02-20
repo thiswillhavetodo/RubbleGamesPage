@@ -309,7 +309,7 @@ a:hover { opacity:0.60; }
 .ISSslides {
     display: none;
     width: auto;
-    height: 60%;
+    height: 50%;
     margin-left: 10%;
     border: solid black 3px;
 }
