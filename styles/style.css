@@ -283,6 +283,11 @@ a:hover { opacity:0.60; }
     -webkit-margin-before: 0 !important;
 }
 
+.gameNameISS {
+    height: 100%;
+    -webkit-margin-before: 0 !important;
+}
+
 .gameStatus { font-size: 13px; }
 
 .ZCAslides {
@@ -297,6 +302,14 @@ a:hover { opacity:0.60; }
     display: none;
     width: 80%;
     height: auto;
+    margin-left: 10%;
+    border: solid black 3px;
+}
+
+.ISSslides {
+    display: none;
+    width: auto;
+    height: 60%;
     margin-left: 10%;
     border: solid black 3px;
 }
