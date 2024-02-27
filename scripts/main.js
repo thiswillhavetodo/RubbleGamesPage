@@ -36,7 +36,7 @@ function showDivs(n, game) {
   dots[slideIndex-1].className += " -opacity-off";
 }
 
-function mailListShow() {
+/*function mailListShow() {
   var mailClass = document.getElementById("mc_embed_signup");
   if (mailClass.style.display=='none' || mailClass.style.display=="") {
     mailClass.style.display = 'block'; 
@@ -44,4 +44,4 @@ function mailListShow() {
   else {
     mailClass.style.display = 'none'; 
   }
-}
+}*/
