@@ -330,9 +330,10 @@ a:hover { opacity:0.60; }
 }
 
 .previewHolder {
-    width: 15.35%;
-    float: left;
-    padding: 0.6%;
+    width: 15.3%;
+    float: left;    
+    padding: 0.65%;
+    padding-top: 2%;
 }
 
 .previewHolderRight {
