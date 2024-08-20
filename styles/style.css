@@ -281,6 +281,13 @@ a:hover { opacity:0.60; }
     line-height: 2;
 }
 
+.policyText {
+    padding: 3% 7%;
+}
+.privacyHeader {
+    margin-top: 3em;
+}
+
 .blurb p { padding-bottom: 6%; }
 
 .freelanceSection p, .fcRight p { padding-bottom: 1.5%; }
