@@ -288,7 +288,7 @@ a:hover { opacity:0.60; }
     margin-top: 3em;
 }
 
-.blurb p { padding-bottom: 6%; }
+.blurb p { padding-bottom: 3%; }
 
 .freelanceSection p, .fcRight p { padding-bottom: 1.5%; }
 
@@ -310,7 +310,10 @@ a:hover { opacity:0.60; }
     -webkit-margin-before: 0 !important;
 }
 
-.gameStatus { font-size: 13px; }
+.gameStatus { 
+    font-size: 13px; 
+    padding-bottom: 0px !important;
+}
 
 .ZCAslides {
     display: none;
@@ -370,7 +373,10 @@ a:hover { opacity:0.60; }
     -webkit-backface-visibility:hidden
 }
 
-.googlePlayBadge { width: 60%; }
+.googlePlayBadge { 
+    width: 60%; 
+    margin-top: -2%;
+}
 
 .googlePlayBadge:hover {
     opacity:0.75;
